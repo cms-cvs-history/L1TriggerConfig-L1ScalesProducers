@@ -2,7 +2,7 @@
   es_source l1gmtscalesrcd = EmptyESSource {
     string recordName = "L1MuGMTScalesRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
   }
 
   es_module l1gmtscales = L1MuGMTScalesProducer {}
