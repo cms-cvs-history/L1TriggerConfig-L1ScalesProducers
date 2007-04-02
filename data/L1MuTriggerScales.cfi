@@ -1,8 +1,2 @@
 
-  es_source l1muscalesrcd = EmptyESSource {
-    string recordName = "L1MuTriggerScalesRcd"
-    vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = true
-  }
-
-  es_module l1muscales = L1MuTriggerScalesProducer {}
+  es_module L1MuTriggerScales = L1MuTriggerScalesProducer {}
