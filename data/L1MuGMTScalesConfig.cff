@@ -1,0 +1,8 @@
+
+  es_source L1MuGMTScalesRcdSource = EmptyESSource {
+    string recordName = "L1MuGMTScalesRcd"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = true
+  }
+
+  include "L1TriggerConfig/L1ScalesProducers/data/L1MuGMTScales.cfi"
