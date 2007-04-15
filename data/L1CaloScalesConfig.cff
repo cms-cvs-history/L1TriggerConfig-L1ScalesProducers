@@ -10,3 +10,5 @@
     vuint32 firstValid = { 1 }
     bool iovIsRunNotTime = false
   }
+
+  include "L1TriggerConfig/L1ScalesProducers/data/l1CaloScales.cfi"

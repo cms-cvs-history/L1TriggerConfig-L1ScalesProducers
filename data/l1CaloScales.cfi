@@ -1,5 +1,5 @@
 
-es_module L1Scales = L1ScalesTrivialProducer {
+es_module l1CaloScales = L1ScalesTrivialProducer {
 
   double L1CaloEmEtScaleLSB = 0.5
   vdouble L1CaloEmThresholds = { 
