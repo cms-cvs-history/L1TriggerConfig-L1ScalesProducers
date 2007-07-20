@@ -2,13 +2,13 @@
   es_source emrcdsrc = EmptyESSource {
     string recordName = "L1EmEtScaleRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
   }
 
   es_source jetrcdsrc = EmptyESSource {
     string recordName = "L1JetEtScaleRcd"
     vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = false
+    bool iovIsRunNotTime = true
   }
 
   include "L1TriggerConfig/L1ScalesProducers/data/l1CaloScales.cfi"
