@@ -6,6 +6,12 @@
     bool iovIsRunNotTime = true
   }
 
+  es_source l1muptscalercd = EmptyESSource {
+    string recordName = "L1MuTriggerPtScaleRcd"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = true
+  }
+
   es_source l1gmtscalesrcd = EmptyESSource {
     string recordName = "L1MuGMTScalesRcd"
     vuint32 firstValid = { 1 }
