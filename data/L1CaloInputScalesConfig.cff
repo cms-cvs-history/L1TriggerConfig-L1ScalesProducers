@@ -1,0 +1,14 @@
+es_source l1CaloEcalScaleRecord = EmptyESSource {
+    string recordName = "L1CaloEcalScaleRcd"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = true
+}
+
+es_source l1CaloHcalScaleRecord = EmptyESSource {
+    string recordName = "L1CaloHcalScaleRcd"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = true
+}
+
+include "L1TriggerConfig/L1ScalesProducers/data/L1CaloInputScales.cfi"
+
